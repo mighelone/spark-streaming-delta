@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "streaming"
+version = "0.1.0"
+description = ""
+authors = ["Michele Vascellari <michele.vascellari@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "3.8"
+pyspark = "^3.0.0"
+faust = "^1.10.4"
+confluent_kafka = "^1.4.2"
+pykka = "^2.0.2"
+pandas = "^1.0.5"
+koalas = "^1.0.1"
+pyspark-stubs = "^3.0.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = "^19.10b0"
+flake8 = "^3.8.3"
+isort = "^5.0.2"
+ipython = "^7.16.1"
+parquet-tools = "^0.2.3"
+jupyter = "^1.0.0"
+sparksql-magic = "^0.0.3"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

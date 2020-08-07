@@ -1,0 +1,7 @@
+raw
+_checkpoints
+prices
+*.egg-info
+__pycache__
+delta
+.vscode
